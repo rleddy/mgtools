@@ -1,0 +1,23 @@
+{
+  "index.js": [
+    "lib/io.js",
+    "lib/network.js"
+  ],
+  "lib/default-validator.js": [],
+  "lib/io.js": [
+    "node_modules/fs-extra/lib/index.js",
+    "node_modules/js-yaml/index.js",
+    "node_modules/lodash/lodash.js"
+  ],
+  "lib/network.js": [
+    "lib/default-validator.js",
+    "lib/io.js",
+    "lib/proxy-validator.js",
+    "node_modules/async/lib/async.js",
+    "node_modules/debug/src/index.js",
+    "node_modules/js-yaml/index.js",
+    "node_modules/lodash/lodash.js",
+    "node_modules/request/index.js"
+  ],
+  "lib/proxy-validator.js": [],
+}

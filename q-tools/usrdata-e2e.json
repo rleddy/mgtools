@@ -1,0 +1,18 @@
+{
+    "org" : "leddyr-eval",
+    "env" : "test",
+    "devAcct" : "helloworld@apigee.com",
+    "apiDeveloperApp" : "EEEK-APP",
+    "password" : "Ape1sOn4Hill!",
+    "user" : "leddyr@google.com",
+    "key" : "6NXuJf77PXZngc1Y8Ytt69RIYSBcQv8T",
+    "secret" : "TnZeUewEKxVkHzMH",
+    "quota": "100",
+    "quotaInterval": "1",
+    "quotaTimeUnit": "minute",
+    "weight" : "1"
+}
+
+
+
+

@@ -1,0 +1,57 @@
+{
+  "_args": [
+    [
+      "volos-quota-apigee@0.13.2",
+      "/Users/leddyr/Documents/GitHub/forked-rl/microgateway/node_modules/microgateway-plugins"
+    ]
+  ],
+  "_from": "volos-quota-apigee@0.13.2",
+  "_id": "volos-quota-apigee@0.13.2",
+  "_inBundle": false,
+  "_integrity": "sha512-/CtkiAI4Uj0+oDkRbgRRbnkSjcJ3P2Wpqk/k+yIAVVCqwwKyY1SkHniN9n1r+4SQoV7XmpUcvhk/ZEfPamMOzQ==",
+  "_location": "/microgateway-plugins/volos-quota-apigee",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "volos-quota-apigee@0.13.2",
+    "name": "volos-quota-apigee",
+    "escapedName": "volos-quota-apigee",
+    "rawSpec": "0.13.2",
+    "saveSpec": null,
+    "fetchSpec": "0.13.2"
+  },
+  "_requiredBy": [
+    "/microgateway-plugins"
+  ],
+  "_resolved": "https://registry.npmjs.org/volos-quota-apigee/-/volos-quota-apigee-0.13.2.tgz",
+  "_spec": "0.13.2",
+  "_where": "/Users/leddyr/Documents/GitHub/forked-rl/microgateway/node_modules/microgateway-plugins",
+  "bugs": {
+    "url": "https://github.com/apigee/volos/issues"
+  },
+  "dependencies": {
+    "apigee-access": ">=1.2.x",
+    "debug": "^2.2.0",
+    "request": "^2.6.0",
+    "semver": "3.x.x",
+    "volos-quota-common": "0.11.x"
+  },
+  "description": "Apigee provider for Quota enforcement in the Volos system.",
+  "devDependencies": {
+    "proxy": "^0.2.4"
+  },
+  "homepage": "https://github.com/apigee/volos",
+  "keywords": [
+    "quota",
+    "apigee"
+  ],
+  "license": "MIT",
+  "main": "lib/apigeequota.js",
+  "name": "volos-quota-apigee",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apigee/volos.git"
+  },
+  "version": "0.13.2"
+}

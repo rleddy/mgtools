@@ -1,0 +1,14 @@
+{
+    "org" : "$org",
+    "env" : "$env",
+    "devAcct" : "$devguy@google.com",
+    "apiDeveloperApp" : "$devApp",
+    "password" : "$pass",
+    "user" : "$user",
+    "key" : "$key",
+    "secret" : "$secret",
+    "quota": "$quotaAmount",
+    "quotaInterval": "$quotaInterval",
+    "quotaTimeUnit": "$quotaTimeUnit",
+    "weight" : "$quotaWeight"
+}

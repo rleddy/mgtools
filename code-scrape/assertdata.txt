@@ -1,0 +1,19 @@
+must have a secret | cli/lib/configure.js:    assert(secret, 'must have a secret');
+dir must be configured | cli/lib/deploy-auth.js:    assert(dir, 'dir must be configured')
+callback must be present | cli/lib/deploy-auth.js:    assert(callback, 'callback must be present')
+username is required | cli/lib/private.js:        assert(options.username, 'username is required');
+password is required | cli/lib/private.js:        assert(options.password, 'password is required');
+org is required | cli/lib/private.js:    assert(options.org, 'org is required');
+env is required | cli/lib/private.js:    assert(options.env, 'env is required');
+runtimeUrl is required | cli/lib/private.js:    assert(options.runtimeUrl, 'runtimeUrl is required');
+mgmtUrl is required | cli/lib/private.js:    assert(options.mgmtUrl, 'mgmtUrl is required');
+file is required | cli/lib/token.js:  assert(options.file,"file is required")
+must have target | lib/agent-config.js:  assert(options.target, 'must have target');
+plugins not configured | lib/plugins.js:  assert(config.edgemicro.plugins, 'plugins not configured');
+plugin dir does not exist:  + pluginDir | lib/plugins.js:  assert(fs.existsSync(pluginDir), 'plugin dir does not exist: ' + pluginDir);
+plugin dir is not a directory:  + pluginDir | lib/plugins.js:  assert(stat.isDirectory(), 'plugin dir is not a directory: ' + pluginDir);
+error reading plugin dir:  + pluginDir | lib/plugins.js:  assert(dirs, 'error reading plugin dir: ' + pluginDir);
+must have a token | lib/server.js:  assert(token, 'must have a token');
+configpath cant be empty | lib/server.js:  assert(config, 'configpath cant be empty');
+must have EDGEMICRO_KEY | lib/server.js:  assert(key, 'must have EDGEMICRO_KEY');
+must have EDGEMICRO_SECRET | lib/server.js:  assert(secret, 'must have EDGEMICRO_SECRET');

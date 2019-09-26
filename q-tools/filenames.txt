@@ -1,0 +1,9 @@
+
+/Users/leddyr/Documents/GitHub/forked-rl/microgateway/tools/dat-rollingwindow/testDataB1568854653894.dat
+/Users/leddyr/Documents/GitHub/forked-rl/microgateway/tools/dat-rollingwindow/testDataG1568854653893.dat
+/Users/leddyr/Documents/GitHub/forked-rl/microgateway/tools/dat-rollingwindow/testDataC1568854653900.dat
+/Users/leddyr/Documents/GitHub/forked-rl/microgateway/tools/dat-rollingwindow/testDataA1568854653900.dat
+/Users/leddyr/Documents/GitHub/forked-rl/microgateway/tools/dat-rollingwindow/testDataH1568854653900.dat
+/Users/leddyr/Documents/GitHub/forked-rl/microgateway/tools/dat-rollingwindow/testDataE1568854653906.dat
+/Users/leddyr/Documents/GitHub/forked-rl/microgateway/tools/dat-rollingwindow/testDataD1568854653911.dat
+/Users/leddyr/Documents/GitHub/forked-rl/microgateway/tools/dat-rollingwindow/testDataF1568854653912.dat

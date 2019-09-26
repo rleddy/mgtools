@@ -1,0 +1,14 @@
+{
+    "org" : "leddyr-eval",
+    "env" : "test",
+    "devAcct" : "helloworld@apigee.com",
+    "apiDeveloperApp" : "BakeryApp",
+    "password" : "Ape1sOn4Hill!",
+    "user" : "leddyr@google.com",
+    "key" : "d0wz5pVBoUZwzqRUEs3A9EsuAmU2of2h",
+    "secret" : "FplPyEBjA8ev8T57",
+    "quota": "100",
+    "quotaInterval": "1",
+    "quotaTimeUnit": "minute",
+    "weight" : "1"
+}

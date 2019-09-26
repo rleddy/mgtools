@@ -1,0 +1,18 @@
+{
+    "org" : "leddyr-eval",
+    "env" : "test",
+    "devAcct" : "edgemicro_dev_qgroup4-8@google.com",
+    "apiDeveloperApp" : "edgemicro_dev_app_qgroup4-8",
+    "password" : "Ape1sOn4Hill!",
+    "user" : "leddyr@google.com",
+    "key" : "xYNADQw3Cabqo4t9wcRiv5yAyMuPzwj5",
+    "secret" : "dULoFaiYr8YzQNXj",
+    "quota": "36000",
+    "quotaInterval": "1",
+    "quotaTimeUnit": "hour",
+    "weight" : "400:random:20"
+}
+
+
+
+

@@ -1,0 +1,172 @@
+{ "stubber" : "../node_modules/microgateway-core/",
+  "index.js": [
+    "lib/config.js",
+    "lib/gateway.js",
+    "lib/logging.js",
+    "lib/plugins.js",
+    "lib/stats.js",
+    "node_modules/debug/src/index.js",
+    "node_modules/lodash/lodash.js",
+    "node_modules/uuid/index.js"
+  ],
+  "lib/build-non-tunnel-options.js": [],
+  "lib/build-tunnel-agent.js": [
+    "node_modules/tunnel-agent/index.js"
+  ],
+  "lib/config-proxy-middleware.js": [
+    "lib/build-tunnel-agent.js",
+    "lib/config.js",
+    "lib/no-proxy-parser.js",
+    "lib/proxy-path-matcher.js",
+    "node_modules/debug/src/index.js",
+    "node_modules/lodash/lodash.js",
+    "node_modules/sanitizer/sanitizer.js"
+  ],
+  "lib/config.js": [],
+  "lib/errors-middleware.js": [
+    "lib/logging.js",
+    "lib/stats.js",
+    "node_modules/debug/src/index.js",
+    "node_modules/lodash/lodash.js"
+  ],
+  "lib/gateway.js": [
+    "lib/config-proxy-middleware.js",
+    "lib/config.js",
+    "lib/errors-middleware.js",
+    "lib/logging.js",
+    "lib/plugins-middleware.js",
+    "lib/trace-helper.js",
+    "node_modules/async/lib/async.js",
+    "node_modules/debug/src/index.js"
+  ],
+  "lib/logging.js": [
+    "lib/config.js",
+    "lib/stats.js",
+    "node_modules/debug/src/index.js",
+    "node_modules/mkdirp/index.js",
+    "node_modules/uuid/index.js"
+  ],
+  "lib/no-proxy-parser.js": [],
+  "lib/ondata-transform.js": [
+    "node_modules/async/lib/async.js",
+    "node_modules/debug/src/index.js"
+  ],
+  "lib/plugins-middleware.js": [
+    "lib/build-non-tunnel-options.js",
+    "lib/config.js",
+    "lib/logging.js",
+    "lib/no-proxy-parser.js",
+    "lib/ondata-transform.js",
+    "lib/stats.js",
+    "lib/trace-helper.js",
+    "node_modules/async/lib/async.js",
+    "node_modules/debug/src/index.js",
+    "node_modules/lodash/lodash.js",
+    "node_modules/uuid/index.js"
+  ],
+  "lib/plugins.js": [
+    "lib/config.js",
+    "lib/logging.js",
+    "lib/stats.js",
+    "node_modules/debug/src/index.js",
+    "node_modules/lodash/lodash.js"
+  ],
+  "lib/proxy-path-matcher.js": [
+    "node_modules/minimatch/minimatch.js"
+  ],
+  "lib/stats.js": [],
+  "lib/trace-helper.js": [
+    "node_modules/debug/src/index.js",
+    "node_modules/opentracing/lib/index.js"
+  ],
+  "server.js": [
+    "index.js",
+    "node_modules/uuid/v1.js"
+  ],
+  
+  "../node_modules/microgateway-core/index.js": [
+      "../node_modules/microgateway-core/lib/config.js",
+      "../node_modules/microgateway-core/lib/gateway.js",
+      "../node_modules/microgateway-core/lib/logging.js",
+      "../node_modules/microgateway-core/lib/plugins.js",
+      "../node_modules/microgateway-core/lib/stats.js",
+      "../node_modules/microgateway-core/node_modules/debug/src/index.js",
+      "../node_modules/microgateway-core/node_modules/lodash/lodash.js",
+      "../node_modules/microgateway-core/node_modules/uuid/index.js"
+  ],
+  "../node_modules/microgateway-core/lib/build-non-tunnel-options.js": [],
+  "../node_modules/microgateway-core/lib/build-tunnel-agent.js": [
+      "../node_modules/microgateway-core/node_modules/tunnel-agent/index.js"
+  ],
+  "../node_modules/microgateway-core/lib/config-proxy-middleware.js": [
+      "../node_modules/microgateway-core/lib/build-tunnel-agent.js",
+      "../node_modules/microgateway-core/lib/config.js",
+      "../node_modules/microgateway-core/lib/no-proxy-parser.js",
+      "../node_modules/microgateway-core/lib/proxy-path-matcher.js",
+      "../node_modules/microgateway-core/node_modules/debug/src/index.js",
+      "../node_modules/microgateway-core/node_modules/lodash/lodash.js",
+      "../node_modules/microgateway-core/node_modules/sanitizer/sanitizer.js"
+  ],
+  "../node_modules/microgateway-core/lib/config.js": [],
+  "../node_modules/microgateway-core/lib/errors-middleware.js": [
+      "../node_modules/microgateway-core/lib/logging.js",
+      "../node_modules/microgateway-core/lib/stats.js",
+      "../node_modules/microgateway-core/node_modules/debug/src/index.js",
+      "../node_modules/microgateway-core/node_modules/lodash/lodash.js"
+  ],
+  "../node_modules/microgateway-core/lib/gateway.js": [
+      "../node_modules/microgateway-core/lib/config-proxy-middleware.js",
+      "../node_modules/microgateway-core/lib/config.js",
+      "../node_modules/microgateway-core/lib/errors-middleware.js",
+      "../node_modules/microgateway-core/lib/logging.js",
+      "../node_modules/microgateway-core/lib/plugins-middleware.js",
+      "../node_modules/microgateway-core/lib/trace-helper.js",
+      "../node_modules/microgateway-core/node_modules/async/lib/async.js",
+      "../node_modules/microgateway-core/node_modules/debug/src/index.js"
+  ],
+  "../node_modules/microgateway-core/lib/logging.js": [
+      "../node_modules/microgateway-core/lib/config.js",
+      "../node_modules/microgateway-core/lib/stats.js",
+      "../node_modules/microgateway-core/node_modules/debug/src/index.js",
+      "../node_modules/microgateway-core/node_modules/mkdirp/index.js",
+      "../node_modules/microgateway-core/node_modules/uuid/index.js"
+  ],
+  "../node_modules/microgateway-core/lib/no-proxy-parser.js": [],
+  "../node_modules/microgateway-core/lib/ondata-transform.js": [
+      "../node_modules/microgateway-core/node_modules/async/lib/async.js",
+      "../node_modules/microgateway-core/node_modules/debug/src/index.js"
+  ],
+  "../node_modules/microgateway-core/lib/plugins-middleware.js": [
+      "../node_modules/microgateway-core/lib/build-non-tunnel-options.js",
+      "../node_modules/microgateway-core/lib/config.js",
+      "../node_modules/microgateway-core/lib/logging.js",
+      "../node_modules/microgateway-core/lib/no-proxy-parser.js",
+      "../node_modules/microgateway-core/lib/ondata-transform.js",
+      "../node_modules/microgateway-core/lib/stats.js",
+      "../node_modules/microgateway-core/lib/trace-helper.js",
+      "../node_modules/microgateway-core/node_modules/async/lib/async.js",
+      "../node_modules/microgateway-core/node_modules/debug/src/index.js",
+      "../node_modules/microgateway-core/node_modules/lodash/lodash.js",
+      "../node_modules/microgateway-core/node_modules/uuid/index.js"
+  ],
+  "../node_modules/microgateway-core/lib/plugins.js": [
+      "../node_modules/microgateway-core/lib/config.js",
+      "../node_modules/microgateway-core/lib/logging.js",
+      "../node_modules/microgateway-core/lib/stats.js",
+      "../node_modules/microgateway-core/node_modules/debug/src/index.js",
+      "../node_modules/microgateway-core/node_modules/lodash/lodash.js"
+  ],
+  "../node_modules/microgateway-core/lib/proxy-path-matcher.js": [
+      "../node_modules/microgateway-core/node_modules/minimatch/minimatch.js"
+  ],
+  "../node_modules/microgateway-core/lib/stats.js": [],
+  "../node_modules/microgateway-core/lib/trace-helper.js": [
+      "../node_modules/microgateway-core/node_modules/debug/src/index.js",
+      "../node_modules/microgateway-core/node_modules/opentracing/lib/index.js"
+  ],
+  "../node_modules/microgateway-core/server.js": [
+      "../node_modules/microgateway-core/index.js",
+      "../node_modules/microgateway-core/node_modules/uuid/v1.js"
+  ]
+
+}
